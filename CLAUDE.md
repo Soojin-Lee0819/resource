@@ -45,12 +45,6 @@
 5. **Document Results**: Add review section to `tasks/todo.md`
 6. **Capture Lessons**: Update `tasks/lessons.md` after corrections
 
-## Voice Mode
-- When user types `/voicemode` or `/voicemode:converse`, enter **continuous voice mode**
-- After each voice response, respond in text then immediately call `converse` again with `skip_tts: true` to keep listening
-- Continue this loop until the user says "stop voice mode", "exit voice", or types instead of speaking
-- Always use `skip_tts: true` — voice input only, text output
-
 ## Core Principles
 
 - **Simplicity First**: Make every change as simple as possible. Impact minimal code.
